@@ -1,0 +1,20 @@
+{
+  "name": "pallex",
+  "version": "1.0.0",
+  "description": "Pixel pallet for paiting pixel Art ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pixel",
+    "digital",
+    "painting",
+    "pallet"
+  ],
+  "author": "Amireza Fatemi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
