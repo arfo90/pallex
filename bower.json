@@ -1,0 +1,24 @@
+{
+  "name": "pallex",
+  "description": "Pixel pallet for paiting pixel Art",
+  "main": "server.js",
+  "authors": [
+    "Amireza Fatemi <arfo.amireza@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "pixel",
+    "digital",
+    "painting",
+    "pallet"
+  ],
+  "homepage": "https://github.com/arfo90/pallex",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -12,7 +12,7 @@
     "painting",
     "pallet"
   ],
-  "author": "Amireza Fatemi",
+  "author": "Amireza Fatemi <arfo.amireza@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.2"
