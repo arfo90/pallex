@@ -15,6 +15,7 @@
   "author": "Amireza Fatemi <arfo.amireza@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^2.5.6",
     "express": "^4.15.2"
   }
 }
