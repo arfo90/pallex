@@ -8,11 +8,19 @@ var server_host = process.env.YOUR_HOST || '0.0.0.0';
 
 var port = process.env.PORT || 5000;
 
-app.use(express.static(__dirname + '/view'));
 
-app.get('/',function(req,res){
-  res.sendFile(path.join(__dirname+'canvas.html'));
+
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'ejs');
+
+app.use(express.static(__dirname + '/'));
+
+
+app.get('/', function(req, res) {
+        res.render('index');
 });
+
+app.use(express.static(__dirname + '/'));
 
 
 console.log('Booting..');
